@@ -20,7 +20,7 @@ function EditEmployee({ token, employee, setPage }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`https://employee-management-system-xxxx.onrender.com/api/employees/${employee._id}`, {
+      const res = await fetch('https://employee-management-backend-77zs.onrender.com/api/employees/${employee._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
