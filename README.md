@@ -19,7 +19,7 @@ A web application that allows administrators to perform CRUD operations on emplo
 - dotenv
 - cors
 
-## ⚙️ Features
+##  Features
 -  Admin Login & Register
 -  Add New Employee
 -  View All Employees
