@@ -17,8 +17,8 @@ function Login({ handleLogin }) {
     e.preventDefault();
     try {
       const url = isRegister
-        ? 'https://employee-management-system-xxxx.onrender.com/api/auth/register'
-        : 'https://employee-management-system-xxxx.onrender.com/api/auth/login';
+        ?'https://employee-management-backend-77zs.onrender.com/api/auth/register'
+        : 'https://employee-management-backend-77zs.onrender.com/api/auth/login'
 
       const body = isRegister
         ? { username, ...formData }
