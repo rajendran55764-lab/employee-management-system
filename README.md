@@ -43,10 +43,10 @@ A web application that allows administrators to perform CRUD operations on emplo
 
 ##  Live Demo
 ### Frontend (Website)
-[Click Here to Open Website](https://employee-management-system-xxxx.vercel.app)
+[Click Here to Open Website](https://employee-management-system-tau-six.vercel.app)
 
 ### Backend (API)
-[Click Here to Open API](https://employee-management-system-xxxx.onrender.com)
+[Click Here to Open API](https://employee-management-backend-77zs.onrender.com)
 
 ##  Project Structure
 employee-management-system/
