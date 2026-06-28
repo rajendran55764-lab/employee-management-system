@@ -12,7 +12,7 @@ function EmployeeList({ token, handleEdit, setPage }) {
 
   const fetchEmployees = async () => {
     try {
-      const res = await fetch('https://employee-management-system-xxxx.onrender.com/api/employees', {
+      const res = await fetch('https://employee-management-backend-77zs.onrender.com/api/employees', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -29,7 +29,7 @@ function EmployeeList({ token, handleEdit, setPage }) {
   const deleteEmployee = async (id) => {
     if (window.confirm('Are you sure you want to delete this employee?')) {
       try {
-        const res = await fetch(`https://employee-management-system-xxxx.onrender.com/api/employees/${id}`, {
+        const res = await fetch(`https://employee-management-backend-77zs.onrender.com/api/employees/${id}`, {
           method: 'DELETE',
           headers: { 'Authorization': `Bearer ${token}` }
         });
